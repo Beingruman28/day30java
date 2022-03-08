@@ -10,7 +10,7 @@ public class ThreadsforCounter implements Runnable {
 			  if (i==5000) {		
 			  i=0;
 			  try {
-					Thread.sleep(10);
+					Thread.sleep(1000);
 					}
 				catch (Exception e)  
 				{  
